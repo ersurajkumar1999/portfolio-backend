@@ -1,5 +1,5 @@
 const validator = require('validator');
-const { errorResponseMessage, successResponseMessage } = require("../helper/responseMessage");
+const { errorResponseMessage, successResponseMessage } = require("../helper/ResponseMessage");
 const { createContact } = require("../services/ContactService");
 const { checkImageType } = require('../helper/ImageValidation');
 const cloudinary = require('cloudinary').v2;
